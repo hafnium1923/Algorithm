@@ -10,7 +10,7 @@ rest.forEach((i) => {
   testCase.push(i.trim().split(" ").map(Number));
 });
 
-testCase.forEach((test, index) => {
+testCase.forEach((test) => {
   let count = 0;
   for (let i = test[0]; i <= test[1]; i++) {
     if (i === 0) count++;
