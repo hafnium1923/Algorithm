@@ -1,5 +1,3 @@
-const { start } = require("repl");
-
 let [info, ...vertexInfo] = require("fs")
   .readFileSync(process.platform === "linux" ? "/dev/stdin" : "example.txt")
   .toString()
